@@ -1,0 +1,19 @@
+.full{
+    margin-top: 50px;
+}
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+.lv1{
+    display: flex;
+}
+.lv1 li{
+    margin-right: 30px;
+}
+#lv2{
+    display: none;
+}

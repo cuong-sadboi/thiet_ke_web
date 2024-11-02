@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h4>ĐĂNG KÝ THÀNH VIÊN</h4>
+        <label for="">User Name:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="">Password</label>
+        <br>
+        <input type="password">
+        <br>
+        <label for="">Full Name:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="">Photo:</label>
+        <br>
+        <input name="Photo" type="file" >
+        <hr>
+        <input type="submit" value="Register">
+        <hr>
+        <label for="">Giới tính:</label>
+        <br>
+        <input type="radio" name=""gt>Nam
+        <input type="radio" name=""gt>Nữ
+        <br>
+        <label for="">Nhóm máu:</label>
+        <br>
+        <input type="radio" name="nm">A
+        <input type="radio" name="nm">B
+        <input type="radio" name="nm">AB
+        <input type="radio" name="nm">O
+        <input type="radio" name="nm">Hiếm
+        <hr>
+        Tình trạng hôn nhân
+        <div>
+            <label><input name="status" type="checkbox" />Độc thân?</label>
+        </div>
+        <div>
+            Sở thích
+            <label><input name="hobby" type="checkbox" value="1">Thể thao</label>
+            <label><input name="hobby" type="checkbox" value="2">Âm nhạc</label>
+            <label><input name="hobby" type="checkbox" value="3">Du lịch</label>
+            <label><input name="hobby" type="checkbox" value="4">Khác</label>
+            <input type="image" src="images/techmarket.jpg" width="100" height="70">
+            <hr>
+            <label for="">Quê quán</label>
+            <select name="" id="">
+                <option value="">Thái Nguyên</option>
+                <option value="" selected>Thái Bình</option>
+                <option value="">Hà Nội</option>
+            </select>
+            <br>
+            <textarea name="" id="" cols="50" rows="10">Ghi chú</textarea>
+            <br>
+            <button>
+                <div class="svg-wrapper-1">
+                  <div class="svg-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="30"
+                      height="30"
+                      class="icon"
+                    >
+                      <path
+                        d="M22,15.04C22,17.23 20.24,19 18.07,19H5.93C3.76,19 2,17.23 2,15.04C2,13.07 3.43,11.44 5.31,11.14C5.28,11 5.27,10.86 5.27,10.71C5.27,9.33 6.38,8.2 7.76,8.2C8.37,8.2 8.94,8.43 9.37,8.8C10.14,7.05 11.13,5.44 13.91,5.44C17.28,5.44 18.87,8.06 18.87,10.83C18.87,10.94 18.87,11.06 18.86,11.17C20.65,11.54 22,13.13 22,15.04Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <span>Save</span>
+            </button>
+            <fieldset>
+                <legend>Giới tính</legend>
+                <input type="radio" id="M"/>
+                <label for="M">Nam</label>
+
+                <input type="radio" id="F" />
+                <label for="F">Nữ</label>
+            </fieldset>
+            <hr>
+            <input tabindex="1" placeholder="Email Address"/>
+            <br>
+            <br>
+            <input tabindex="2" value="50" readonly/>
+            <br>
+            <br>
+            <input tabindex="3">
+            <br>
+            <button tabindex="4">OK</button>
+            <button disabled>Cancel</button>
+            <hr>
+            <input type="date">
+            <input type="month" name="" id="">
+            <input type="week" name="" id="">
+            <input type="number" min="" max="" step="">
+            <input type="range">
+            <br>
+            <input type="color">
+            <br>
+            <input type="email">
+            <br>
+            <input list="browers">
+            <datalist id="browers">
+                <option value="Internet Explorer"></option>
+                <option value="Firefox"></option>
+                <option value="Chrome"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+            </datalist>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.0527444810086!2d105.8047278747294!3d21.58386416848269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31352738b1bf08a3%3A0x515f4860ede9e108!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgVGjDtG5nIHRpbiAmIFRydXnhu4FuIHRow7RuZyBUaMOhaSBOZ3V5w6pu!5e0!3m2!1svi!2s!4v1724667112108!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <video controls>
+                <source src="https://www.youtube.com/watch?v=4o5V18NGIDs">
+
+            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4o5V18NGIDs?si=QR6XH7wY6rGgflLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>    
+    </form>
+</body>
+</html>

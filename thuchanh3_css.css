@@ -1,0 +1,92 @@
+body{
+    font-family: noto sans;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.full {
+    max-width: 720px;
+    margin: 30px auto;
+}
+.cacsanpham {
+    display: flex;
+    text-align: center;
+}
+.cacsanpham img {
+    width: 350px;
+    text-align: center;
+}
+.sp1 {
+    border: 1px solid #bebebe;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.anh1{
+    margin-bottom: 13px;
+}
+.sp2 {
+    border: 1px solid #bebebe;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#themsp {
+    margin-left: 130px;
+    background-color: #5cb85c;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    border: #5cb85c;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#giatien {
+    background-color: #f0ad4e;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    border: #f0ad4e;
+    border-radius: 5px;
+    font-weight: bold;
+}
+p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+table{
+    border: 0.5px solid #bebebe;
+    border-spacing: 0px;
+    margin-bottom: 100px;
+    width: 720px;
+    text-align: center;
+    position: relative;
+}
+td{
+    border: 0.5px solid #bebebe;
+    padding:  20px;
+}
+th{
+    border: 0.5px solid #bebebe;
+    padding:  20px;
+}
+tr img{
+    width: 60px;
+}
+.daux{
+    cursor: pointer;
+    border: 0.5px solid aqua;
+    width: 20px;
+    margin-top: 3px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aqua;
+    color: gray;
+}
+.tien{
+    position: absolute;
+    margin-top: 100px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js_giohang.js"></script>
+    <link rel="stylesheet" href="css_giohang.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Danh muc san pham</h3>
+        <div class="list-product">
+            <div>
+                <div>
+                    <img src="images/312051553_3195731920685758_2796978630271241540_n-e1720845005261.jpg" alt="">
+                </div>
+                <div>San pham 1</div>
+                <div>30000</div>
+                <div>
+                    <input type="button" value="Mua" onclick="mua()">
+                </div>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+        <h3>Gio hang</h3>
+        <div class="list-cast">
+            <div class="row1">
+                <table>
+                    <tbody id="sp1">
+
+                    </tbody>
+                    <tbody id="sp2">
+
+                    </tbody>
+                    <tr>
+                        <td class="daux" onclick="xoa()">✖</td>
+                        <td>
+                            <img src="images/312051553_3195731920685758_2796978630271241540_n-e1720845005261.jpg" class="img1" alt="">
+                        </td>
+                        <td>San pham 1</td>
+                        <td>
+                            <input type="number" value="1" min="1" class="in1" onchange="update()" id="sl">
+                        </td>
+                        <td id="price">
+                            30000
+                        </td>
+                        <td class="tt" >
+                            <input type="text" value="30000" onchange="update()" id="gia" class="in2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="daux">✖</td>
+                        <td>
+                            <img src="images/312051553_3195731920685758_2796978630271241540_n-e1720845005261.jpg" class="img1" alt="">
+                        </td>
+                        <td>San pham 2</td>
+                        <td>
+                            <input type="number" value="1" min="1" class="in1" onchange="update()" id="sl1">
+                        </td>
+                        <td id="price1">
+                            40000
+                        </td>
+                        <td class="tt1" >
+                            <input type="text" value="40000" onchange="update()" id="gia1" class="in2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">Tổng tiền</td>
+                        <td id="tongtien">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

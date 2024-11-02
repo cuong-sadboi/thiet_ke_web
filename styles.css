@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: auto;
+}
+  
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+  
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+  
+.nav-item {
+    float: right;
+}
+  
+.nav-item a {
+    font-size: 13px;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 3px 15px;
+    text-decoration: none;
+    height: auto;
+}
+  
+.nav-item a:hover {
+    /* background-color: #ddd; */
+    color: rgba(255, 0, 0, 0.719);
+}
+
+.logo img {
+    padding: 50px 100px;
+    height: auto;
+    margin-right: 10px;
+}
+header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px 53px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    height: auto;
+}
+.sanpham{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: auto;
+}
+.sp{
+    margin: 0 22px;
+    position: relative;
+}
+.sp a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.sp a:hover{
+    color: orange;
+}
+.search{
+    padding-left: 160px;
+    height: auto;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    flex: 1;
+}
+
+.search button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    z-index: 1;
+}
+
+.search img {
+    width: 20px; /* Chiều rộng của hình ảnh */
+    height: 20px; /* Chiều cao của hình ảnh */
+}
+.content-slider {
+    overflow: hidden; /* Ẩn các phần bên ngoài */
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    height: auto;
+    border: 1px solid #ccc; /* Đường viền cho vùng hiển thị */
+    position: relative; /* Để định vị các phần tử bên trong */
+    height: auto;
+}
+
+.content {
+    display: flex; /* Sử dụng flexbox để xếp các đoạn nội dung theo hàng ngang */
+    animation: slide 10s infinite; /* Thêm hiệu ứng trượt */
+    height: auto;
+}
+
+.content div {
+    min-width: 100%; /* Mỗi đoạn nội dung chiếm toàn bộ chiều rộng */
+    height: auto;
+    line-height: 50px; /* Căn giữa theo chiều dọc */
+    text-align: center; /* Căn giữa văn bản */
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); }
+    25% { transform: translateX(-100%); }
+    45% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    70% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    100% { transform: translateX(-300%); }
+}
+body, html {
+    margin: 0; /* Bỏ margin mặc định */
+    height: 100%; /* Đảm bảo chiều cao 100% */
+}
+.anhnen{
+    width: 100vw; /* Chiều rộng 100% màn hình */
+    height: auto; /* Chiều cao 100% màn hình */
+    max-height: 100vh;
+    object-fit: cover;
+}
+.container {
+    display: flex;
+    width: 100%;
+}
+.left, .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.left {
+    background-color: white;
+    color: black;
+}
+.right {
+    background-color: white;
+    color: black;
+}
+.left img, .right img {
+    width: 550px;
+    height: 300px; /* Chiều cao cố định cho cả hai ảnh */
+    object-fit: cover;
+}
+.containerr {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.category {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.category h2 {
+    margin: 10px 0;
+}
+.category p {
+    margin: 5px 0;
+}
+.category p:hover{
+    color: orange;
+}
+.giay a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.giay a:hover{
+    color: orange;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer .logo img {
+    width: 250px;
+    margin-right: 10px;
+}
+.footer .columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer .column {
+    flex: 1;
+    margin: 10px;
+    min-width: 150px;
+}
+.footer .column h3 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.footer .column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer .column ul li {
+    margin: 5px 0;
+}
+.footer .column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer .column ul li a:hover{
+    color:orange;
+}
+.footer .subscribe {
+    margin: 20px 0;
+}
+.footer .subscribe input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.footer .subscribe button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+}
+.footer .legal {
+    margin-top: 20px;
+    font-size: 0.8em;
+}

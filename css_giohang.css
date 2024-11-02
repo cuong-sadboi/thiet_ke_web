@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.img1{
+    width: 60px;
+}
+h3{
+    margin-bottom: 20px;
+}
+table{
+    border: 0.5px solid #bebebe;
+    border-spacing: 0px;
+    margin-bottom: 100px;
+}
+td{
+    border: 0.5px solid #bebebe;
+    padding:  20px;
+}
+.in1{
+    width: 30px;
+    padding: 6px;
+}
+.in2{
+    width: 50px;
+    padding: 6px;
+}
+.daux{
+    cursor: pointer;
+}
+

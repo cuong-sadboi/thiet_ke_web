@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    float: left;
+}
+.box2{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    float: left;
+}
+.box3{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(45, 234, 86);
+    float: right;
+}

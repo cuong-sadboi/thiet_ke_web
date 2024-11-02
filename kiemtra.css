@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: noto sans;
+}
+.head1{
+    list-style: none;
+    font-size: 13px;
+    padding-top: 30px;
+
+}
+.head1 ul li{
+    color: gray;
+    display: inline;
+    margin-left: 50px;
+}
+.giohang{
+    color: blue;
+}
+.cart {
+    margin: auto;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f5f5f5;
+
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+    display: grid;
+    grid-template-columns: repeat(3,15% 55% 30%)
+}
+.cart-item div {
+    flex: 1;
+}
+.total {
+    text-align: right;
+    margin-right: 100px;
+}
+.body1{
+    display: grid;
+    grid-template-columns: repeat(2, 50% 50%);
+}
+.sp1{
+    margin-left: 50px;
+    padding-top: 20px;
+
+}
+.cart-item img{
+    width: 80px;
+}
+h5{
+    margin-bottom: 8px;
+}
+.input1{
+    display: grid;
+    grid-template-columns: repeat(3, 40% 40% 20%);
+
+}
+center{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nhanhang{
+    padding-left: 4px;
+}
+.dathang{
+    border: 1px solid rgb(9, 148, 240);
+    background-color: rgb(9, 148, 240);
+    color: white;
+    width: 600px;
+    height: 40px;
+}
+.spkhac{
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    width: 600px;
+    height: 40px;
+}
+.mau{   
+    padding: 10px;
+}
